@@ -17,7 +17,7 @@ h1 {
 
 h1.title {
   font-size: 1.6em;
-  margin: 2em 0em 1.5em 0em;
+  margin: 2em 0em 1em 0em;
   text-align: center;
 }
 
@@ -63,12 +63,12 @@ img {
 }
 
 a {
-  color: #1a0dab;
+  color: #03c;
   text-decoration: none;
 }
 
 a:visited {
-  color: #681da8;
+  color: #939;
 }
 
 a:hover {
@@ -186,11 +186,11 @@ code span.wa { color: #60a0b0; } /* Warning */
   }
 
   a {
-    color: #8ab4f8;
+    color: #9cf;
   }
 
   a:visited {
-    color: #c58af9;
+    color: #c9f;
   }
 
   pre, code {
