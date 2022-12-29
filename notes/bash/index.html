@@ -47,7 +47,7 @@ file, it will be sourced whenever the current directory is no longer a
 child directory of the root directory containing the <code>.env</code>
 file. (In this sense, my implementation is different from that of
 autoenv’s, which sources <code>.env.leave</code> as soon as you change
-the directory.) Of course, my implementation has security risks and
+the directory.) Of course, my implementation has security risks as
 <em>any</em> <code>.env</code> file that’s encountered is sourced.
 Nested environments, symlinked directories, etc., can also lead to
 unwanted behavior.</p>

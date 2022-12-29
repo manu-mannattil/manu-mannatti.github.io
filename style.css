@@ -56,6 +56,14 @@ section.footnotes {
   font-weight: bold;
   padding: 0em 1em;
   text-align: center;
+  color: #000;
+}
+
+#contents {
+  background: #ffc;
+  border: 1px solid #999;
+  padding: 0em 1em;
+  margin: 1em 0em;
 }
 
 img {
@@ -130,10 +138,6 @@ tr:nth-child(2n) {
   background-color: #eee;
 }
 
-li {
-  margin-top: 0.25em;
-}
-
 .pubul {
   border-bottom: 1px dotted;
 }
@@ -171,10 +175,6 @@ code span.cv { color: #666; } /* CommentVar */
     border: 1px solid #666;
   }
 
-  #note {
-    color: #000;
-  }
-
   blockquote {
     color: #999;
     border-left: 0.25em solid #333;
@@ -190,6 +190,10 @@ code span.cv { color: #666; } /* CommentVar */
 
   tr:nth-child(2n) {
     background-color: #333;
+  }
+
+  #contents {
+    background: #330;
   }
 
   code span.co { color: #999; } /* Comment */

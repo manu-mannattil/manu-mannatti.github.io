@@ -14,12 +14,16 @@ latex" />
 <h1 class="title">Notes on Inkscape</h1>
 </header>
 <h1 id="arrow0">Arrow0</h1>
+<p><img align="right" width=128 style="border:0px; padding:15px" src="./arrow0.svg"/></p>
 <p>I don’t like the default (arrow) markers bundled with Inkscape, so I
-made an arrow called “Arrow0” following <a
-href="https://www.youtube.com/watch?v=MgT-0q0wjLo">this video</a>.
-(Inkscape’s default solid arrows are labelled Arrow1, Arrow2, etc.) To
-use Arrow0, merge the SVG snippet below with the global markers
-file.</p>
+made an arrow called “Arrow0”<a href="#fn1" class="footnote-ref"
+id="fnref1" role="doc-noteref"><sup>1</sup></a> following <a
+href="https://www.youtube.com/watch?v=MgT-0q0wjLo">this video</a>
+(example image on the right). To use Arrow0, merge the SVG snippet below
+with the global markers file. To use this with the Inkscape AppImage,
+first extract the AppImage using <code>--appimage-extract</code> and
+locate the <code>markers.svg</code> file under
+<code>squashfs-root</code>. Repackage with appimagetool if required.</p>
 <div class="sourceCode" id="cb1"><pre
 class="sourceCode xml"><code class="sourceCode xml"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!--</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co">  Merge with the global markers.svg located at:</span></span>
@@ -44,10 +48,15 @@ class="sourceCode xml"><code class="sourceCode xml"><span id="cb1-1"><a href="#c
 <span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="ot">    id=</span><span class="st">&quot;arrow0&quot;</span></span>
 <span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="ot">    d=</span><span class="st">&quot;m4.16 2.49c-2.7-1.29-5.5-1.98-8.33-2.49 2.83-0.514 5.63-1.21 8.33-2.49z&quot;</span>/&gt;</span>
 <span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>&lt;/<span class="kw">marker</span>&gt;</span></code></pre></div>
-<p>To use this with the Inkscape AppImage, first extract the AppImage
-using <code>--appimage-extract</code> and locate the
-<code>markers.svg</code> file under <code>squashfs-root</code>.
-Repackage with appimagetool if required.</p>
+<section id="footnotes" class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Inkscape’s default solid arrows are labelled Arrow1,
+Arrow2, etc.<a href="#fnref1" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
 <p id="date">Last updated: 2022-06-28 12:00 EDT</p>
 </body>
 </html>
