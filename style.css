@@ -88,6 +88,10 @@ a.footnote-ref {
   line-height: 0em;
 }
 
+li {
+  margin: 0.25em 0;
+}
+
 pre, code {
   background: #eee;
   border: 1px solid #ccc;
@@ -230,5 +234,3 @@ ul.task-list {
   text-align: center;
   margin: 0.5em auto;
 }
-
-
