@@ -73,7 +73,7 @@ img {
 
 a {
   color: #03c;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:visited {
@@ -81,7 +81,7 @@ a:visited {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a.footnote-ref {
@@ -167,11 +167,11 @@ code span.cv { color: #666; } /* CommentVar */
   }
 
   a {
-    color: #9cf;
+    color: #fc3;
   }
 
   a:visited {
-    color: #c9f;
+    color: #999;
   }
 
   pre, code {
@@ -197,7 +197,7 @@ code span.cv { color: #666; } /* CommentVar */
   }
 
   #contents {
-    background: #330;
+    background: #033;
   }
 
   code span.co { color: #999; } /* Comment */
